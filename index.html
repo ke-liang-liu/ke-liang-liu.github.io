@@ -1,1 +1,118 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Keliang Liu Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='css/main.css'>
+    <script src='https://kit.fontawesome.com/1b49d7e787.js'></script>
+    <script src='js/main.js'></script>
+  </head>
+
+<body>
+
+<!-- Top Navigation Menu -->
+<div class="topnav" id='navbar'>
+<!--   <a href="#home" class="active" onclick="myFunction()"><i class="fa fa-bars"></i></a> -->
+  
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#welcome-container">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact-container">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div class="container-fluid" id='welcome-container'>
+  <br><br>
+<section id='welcome-section'>
+  <div>
+    <h1>Keliang Liu</h1>
+    <p>a web developer</p>
+  </div>
+</section>
+</div>
+  
+<div class="container-fluid">
+<section id='projects'>
+  <br>
+  <h1>Projects</h1>
+  <div class='grid-container'>
+    <div class='row'>
+      <div class='column project-tile' >
+      <a href='https://codepen.io/keliangliu/pen/jjRgMX/' target='_blank'>
+        <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="result" data-user="keliangliu" data-slug-hash="jjRgMX" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="The last emperor of China">
+  <span>See the Pen <a href="https://codepen.io/keliangliu/pen/jjRgMX/">
+  The last emperor of China</a> by Keliang Liu (<a href="https://codepen.io/keliangliu">@keliangliu</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </a>
+      </div>
+        
+      <div class="column">
+        <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="result" data-user="keliangliu" data-slug-hash="dBEPVW" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="My Survey Form">
+  <span>See the Pen <a href="https://codepen.io/keliangliu/pen/dBEPVW/">
+  My Survey Form</a> by Keliang Liu (<a href="https://codepen.io/keliangliu">@keliangliu</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='column'>
+        <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="result" data-user="keliangliu" data-slug-hash="KjLVNJ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Product Page">
+  <span>See the Pen <a href="https://codepen.io/keliangliu/pen/KjLVNJ/">
+  Product Page</a> by Keliang Liu (<a href="https://codepen.io/keliangliu">@keliangliu</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <div class="column">
+        <p class="codepen" data-height="265" data-theme-id="0" data-default-tab="result" data-user="keliangliu" data-slug-hash="dxbeLY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Liu Technical Documentation">
+  <span>See the Pen <a href="https://codepen.io/keliangliu/pen/dxbeLY/">
+  Liu Technical Documentation</a> by Keliang Liu (<a href="https://codepen.io/keliangliu">@keliangliu</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+    </div>
+  </div>
+</section>
+  
+</div>
+<br><br><br>
+<div class="container-fluid" id='contact-container'>
+<section id='contact-section' class='my-auto'>
+  <div>
+    <h1>Work Hard, Play Hard</h1>
+    <p>Work for all you're worth and you'll be worth more</p>
+  </div>
+  <div class='profile-links' class='d-flex'>
+    <a href='https://github.com/ke-liang-liu' target='_blank'
+      id='profile-link' class='btn btn-primary btn-lg'><i class='fab fa-github fa-lg'></i> GitHub </a>
+    
+    <a href="mailto:keliangliu1@gmail.com" target='_blank' class="btn btn-primary btn-lg"><i class="fas fa-at"></i> Send a mail
+    </a>
+    
+    
+  </div>
+</section>
+</div>
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
